@@ -1,0 +1,15 @@
+#include <sys/ipc.h>
+#include <sys/shm.h>
+#include <unistd.h>
+#include <stdio.h>
+#include <sys/types.h>
+#include <sys/wait.h>
+#include <string.h>
+#include <sys/sem.h>
+#include <strings.h>
+#include <sys/msg.h>
+#include <stdlib.h>
+#include <signal.h>
+#include <sys/time.h>
+#include <time.h>
+#include <pthread.h>
